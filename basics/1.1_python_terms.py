@@ -12,7 +12,7 @@ job_location = "United Arab Emirates"
 
 #Assigning a function to a variable
 print_func = print
-print_func("Hello,World!")
+print_func("Hello, World!")
 
 
 
