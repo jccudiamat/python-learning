@@ -9,8 +9,9 @@ while True:
         mpv = float(input("MPV(fL): "))
         k = 10000
         pct = ((platelet_count*mpv)/k)/1000
-        print(pct)
-        break
+        remarks = f"PCT value {pct:.2f}% is normal" if 0.22 <= pct <= 0.36 else f"PCT value {pct:.2f}% is not normal"
+        print(remarks)
+        print()
         
     except ValueError:
         print("Invalid input!")
