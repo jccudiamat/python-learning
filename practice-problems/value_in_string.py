@@ -21,4 +21,6 @@ if youtuber in names:
 else:
     print(f"{youtuber} does not exist!")
    
-    
+#using ternary operator
+res = "Youtuber exists" if youtuber in names else "Does not exist"
+print(res)
